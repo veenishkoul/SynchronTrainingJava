@@ -1,0 +1,27 @@
+
+CoreJava
+------------------DAY 1--------------------
+1.Class and Object
+2. how to interchange reference of an object
+3. variable,Datatypes, and Operators
+4. Flowstatements
+5. TypeCasting
+6. Arrays.
+-----------------DAY 2---------------------
+7. userdefined functions
+8. static,return
+9.polymorphism - runtime and compile time
+10.constructor - 
+11.Inheritence - deriving properties from parent/super class 
+12.interface - 
+13.final,finally,throw,throws
+14.Collections arrays - List,Set,Queue
+15.FileSystemObject -FileInputSteam,BufferReader,FileReader,FileWriter
+16.createFile
+17.WorkWithExcel,JSON, .CSV
+15.PropertiesFile
+19.DB 
+20.GitHub
+21.Jenkins
+22.MultiThreading
+23.Reflection APIs
