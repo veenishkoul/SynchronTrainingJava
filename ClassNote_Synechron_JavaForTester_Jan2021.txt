@@ -1,0 +1,472 @@
+Selenium
+========
+OpenSource
+Webapplications-AutoIT, Sikuli
+Functional and Regression Testing Tool
+www.selenium.dev / www.seleniumhq.org
+
+selenium cross Browser Testing
+java,C#,php,python,javascripts, bluescripts...
+
+CoreJava
+------------------
+1.Class and Object...
+2. how to interchange reference of an object...
+3. variables,Datatypes, and Operators
+4. Flowstatements
+5. TypeCasting
+6. Arrays. - Day1
+7. userdefined functions 
+8. static,return
+9.polymorphism
+10.constructor, this, this()
+11.Inheritence super, super(),
+	Abstraction
+12.interface
+13.final,finally,throw,throws
+Encapsulation, Abstraction
+13a. Exception handling.
+14. Collections arrays - List,Set,Queue
+15.FileSystemObject -FileInputSteam,BufferReader,FileReader,FileWriter
+16.createFile
+17.WorkWithExcel,JSON, .CSV
+15.PropertiesFile
+19. DB 
+20. GitHub
+21.Jenkins
+22. MultiThreading
+23. Reflection APIs
+24.Maven /Gradle
+
+
+
+Class and Object
+Class: Class is collection of Attributes and methods.
+object: object is an instance of the class
+
+Two ways to check jdk installation
+------------------------------------------------------
+1. cmd --> where java
+2. c:\\programFiles\\java\\JDK and JRE folder -64 bit
+ c:\\programFiles(x86)\\java\\JDK and JRE folder
+
+Platform to create java program
+---------------------------------------------
+1.Notepad
+2. Ecllipse
+3. Intellij
+4.NetBeans
+
+
+
+javac Test.java
+java Test
+
+
+variable
+---------------
+1. local variable
+2. Instance variable
+3. static variable
+
+----------------------------------------------------------------------------------------------------------------------------------------
+2 DataTypes
+------------------------
+1.primitive datatypes
+2. Reference Types
+
+1.primitive datatypes
+
+byte - 1byte memory ---->    -128 to 127
+short - 2 bytes  -----> -32768 to 32767
+int ---> 4 bytes  --->-2^31 to 2^31-1
+long ---> 8 bytes
+char---> 2 bytes ---> 0 to 65535
+float --->4 bytes 
+double --->8 bytes
+boolean ---> 1 bit 0/1, false/true
+
+2. Reference Types
+
+class
+Array
+String...etc
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+Oprators in java
+-------------------------------------------------------
+1.unary Opertor---> ++x,--x,x++,x--;
+
+2. Arthmetic Operators: +,-,/,*,^,%
+
+3. Concatenation operator: ---->+
+
+4. Relation operator -->  <,<=,>,>=,==,!=
+
+5. Bitwise operator ----> & -AND
+		     | -OR
+ 		   ^ xor
+		    ! complement
+		    ~ bitwise unary complement
+6. Short circuite operator ---> && ,||
+
+7. Ternary operator 
+       testexpression? value1 : value2
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Flow Control statements in java
+------------------------------------------------
+1. Selection statements
+	a. if...else
+	b. switch
+2. Interative statements
+	a.While
+	b. do..while
+	c.for
+	d.for...each
+3. Transfer statements
+	a. break;
+	b.continue;	
+	c. return
+	d. try...catch ...finally
+	e. assert
+
+TypeCasting? Convertion of one type to other type we called as typecasting
+---------------------------------------------------------------------------------------------------------------------
+1. primitive datatype casting
+	a.Implicit type casting ---> Lower to higher
+	b.Explicit type casting----> Higher to lower
+
+2. Object reference typecasting
+
+
+ASCII value
+A-65
+B-66
+C-67
+-
+-
+-
+Z-90
+
+
+Array
+-----------
+
+1.5 
+AutoBoxing----> int to Integer
+Autounboxing---> Integer to int
+
+Day2
+-------------
+Call a Function by 2 ways
+-----------------------------------
+1.call functions by value.
+2. call a function by reference.
+
+Polymorphism
+---------------------
+1. compilertime polymorphism
+2. RunTime polymorphism
+
+method overloading
+
+Constructor
+--------------------
+this
+this()
+method overloading
+
+inheritence
+------------------
+extends
+super
+super();
+method overridding.
+
+Abstaction
+-----------------
+
+
+interface
+---------------------
+implements
+
+ExceptionHandling
+-----------------------------
+
+2 types of Exceptions
+--------------------------------
+1. Catch Exception / Caught exception / Checked Exception / compilerTime Exception
+
+2. Uncatch exception / un-Caught exception / un-checkException / Run-Time Exception
+
+
+uncaughtException
+
+checkList for Day3
+---------------------------
+Final,Finally, throws ,thow
+Access modifiers
+Is-A , Has-A
+"Encapsulation"- more secure
+String methods
+Collection APIs: Arrays,Collections
+Encryption and Decryptions
+CreateFile
+FileSystemObject-
+
+
+
+final
+----------------------------
+1. class - can not be inherited
+2. method - can not override
+3. variable - cant change the value
+
+
+Access modifiers- 1. public, 2. default ,3 protected 4. private
+
+1. class level - public, default
+
+public : Access for that class every where in the project
+default : Access for that class only in the same package
+
+2. method level - public , private, default, protected
+
+public : Access for that method every where
+private : Access for that method only in the same class
+default : Access for that method only in that package
+protected : same as default but you have an access for protected method in the inherited class also.
+
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+12345678.....2^4-1
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+comparable (I)
+	compareTo()
+
+public int compareTo(String anotherString)
+
+obj1.compareTo(obj2)
+
+"A".compareTo("B")	 ----> negetive value
+	case1: obj1 Keep before obj2 ---return -value
+	case2: obj1 after obj2 ----return +value
+	case3: obj1 equals obj2 ----return 0;
+
+"Z".compareTo("M")	----> positive value
+
+"Z".compareTo("Z")	 - 0
+
+
+Collection APIs
+----------------------------
+--> Dynamic Arrays.
+-->
+
+ArrayList
+---------------------------------
+constructors in ArrayList();
+1. ArrayList ar=new ArrayList() ;
+
+capacity =10;
+newcapacity = (currentcapacity x 1.5)+1 =(10 x 1.5)+1 =16
+
+2. ArrayList ar=new ArrayList(int initialcapacity) ;
+
+3. ArrayList ar=new ArrayList(collection c) ;
+
+
+Advantages of ArrayList
+------------------------------------
+1. Dynamic array
+2. Serializable
+3. cloanable
+4. RandomAccess - Retrive Data very quickly
+5. Asynchronous
+6. Threadsafty
+
+Dis-Advantage ArrayList
+--------------------------------------
+1. add(1,"M");
+2. Remove(4)
+
+
+LinkedList
+-----------------
+1. LinkedList l=new LinkedList();
+2. LinkedList l=new LinkedList(collection c)
+
+
+CheckList for Day4
+---------------------------
+Collections cont....
+CreateFile
+FileSystemObject/ StreamIO
+	-ByteStream
+	-charectersteam
+	-BufferedStream
+	-ObjectStream
+Encryption and Decryptions
+DB connection
+
+GoogleDriverLink for DBFiles ,Maven and Jenkins
+----------------------------------------------------------------------------
+https://drive.google.com/file/d/17i60TTOMT_E-M9Q0eZmOdusyY1qPJpoC/view?usp=sharing
+
+
+
+vector
+----------
+1.Vector<Object> v=new Vector<Object>();
+2Vector<Object> v=new Vector<Object>(int initial capacity, int incremental capacity);
+
+500 x2 =1000
+505 
+495
+
+initial 1
+3.Vector<Object> v=new Vector<Object>( Collection c);
+
+HashSet
+--------------
+1. HashSet<Object> s=new HashSet<Object>();
+	initial capacity =16,
+	Fill ratio =0.75( load factor)
+
+2. HashSet<Object> s=new HashSet<Object>(int intialcapacity );
+
+3. HashSet<Object> s=new HashSet<Object>(int intialcapacity, float fillratio );
+
+4.  HashSet<Object> s=new HashSet<Object>(Collection c);
+
+
+ObjectStream
+------------------
+
+
+Serialization - ObjectOutputStream
+Deserialization - ObjectInputStream
+
+
+TreeSet
+----------=
+TreeSet<Integer> t=new TreeSet<Integer>(); - Ascending order
+TreeSet<Integer> t=new TreeSet<Integer>( comparator c);
+
+FilesystemObject
+--------------------------
+1. create any file in java
+
+IO Stream
+---------------
+Stream is a local source to read data from a file
+or to write data into file
+
+4 types of steams 
+-------------------------
+1. ByteStream - FileInputStream, FileoutputStream
+2. CharecterStream - FileReader, FileWriter
+3. BufferedStream  - BufferedReader
+4.ObjectStream -ObjectOutputStream(serialization), ObjectInputStream(deserialization)
+
+
+
+Total time taken=3007
+Total time taken=244
+
+Excel
+------------
+1. POI jars
+2. keep excel file in the project
+
+checkList -Day5
+----------------------
+Maven
+DBConnection
+WorkWith Json
+PropertiesFile
+Collection APIs Cont...
+Reflection APIs
+GitHub
+Jenkins
+
+
+
+Junit or TestNG - Java Unit Testing frameworks
+
+TestNG 
+1. Annotations
+
+
+Maven - Build Configuration Management Tool
+--------------------------------------------------------------------------
+1. one project for both developers and Testers
+2. End project Jar or War can be easity created
+3. upgrading and downgrading jar versions is easy.
+4. Maven project can be run in Jenkins
+
+
+maven clean
+
+maven install
+or
+maven test
+
+
+
+mvn clean
+mvn install
+or 
+mvn test
+
+DataBase connection
+--------------------------------
+> show databases;
+> create database company;
+> use company;
+>show tables;
+>create table synechron(name varchar(20), location varchar(30), salary int);
+>desc synechron;
+>insert into synechron values('srinivas','Bangalore',200000);
+>select * from synechron;
+
+
+
+
+1. connect to DB ( Open DB )
+2. Execute sql
+3. CloseDB
+
+
+
+Collections(c)
+Arrays(c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
