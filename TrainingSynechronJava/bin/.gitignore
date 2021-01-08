@@ -3,6 +3,7 @@
 /collectionAPIsExamples/
 /com/
 /constructorExample/
+/dbConnection/
 /encapsulationExample/
 /exceptionHandling/
 /fileSystemObject/
@@ -11,16 +12,8 @@
 /interfaceExample/
 /objectStreamingExample/
 /polymorphismEx/
+/propertiesFile/
 /staticExample/
 /typeCasting/
 /userDefinedFunctions/
-<<<<<<< HEAD
-=======
-/staticExample/
-/polymorphismEx/
-/constructorExample/
-/inheritenceExample/
-/abstractionExample/
-/interfaceExample/
-/exceptionHandling/
->>>>>>> refs/remotes/origin/main
+/collectionUtilityClasses/
